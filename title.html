@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>ノベルゲーム</title>
+		<link rel="stylesheet" href="style.css" >
+		<style>
+			#novelwindow{
+				background-image: url(image/title_back.jpg);
+				background-size: 800px 600px;
+			}
+		
+			#novelwindow > h1{
+				margin-top: 200px;
+				font-size: 32pt;
+				color : #ffffff;
+			}
+			
+			#novelwindow > form > button{
+				width:      200px;
+				height:     60px;
+				font-size:  16pt;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<section id="novelwindow">
+			<h1>密室のワインセラー</h1>	
+			<form action="setup.html" method="GET">
+				<button><strong>ニュ-ゲーム</strong></button>
+			</form>
+			<form action="novel.php" method="GET">
+				<button><strong>ロード</strong></button>
+			</form>
+		</section>
+	</body>
+</html>
